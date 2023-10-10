@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <div style="margin-left: 400px;margin-top: 100px;">
+   <button style="width: 100px; border-radius: 6px;"  onClick="startQuiz(event)">start</button>
+</div>
+   <div style="margin-left: 300px;margin-top: 100px;border: 2px solid black;width: 300px;height: 200px  ;" id="question-container" class="hide">
+    <h2  id="title"></h2>
+
+    <div id="optionso">
+
+    </div>
+
+    <button style="margin-left: 50px;" onClick="nextBtn()">Next</button>
+   </div>
+
+   <div id="result" class="hide">
+   <button onClick="restart()">Restart</button>
+   </div>
+</body>
+</html>
